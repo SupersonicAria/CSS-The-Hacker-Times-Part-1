@@ -27,12 +27,15 @@ title {
     padding: 1em 1em 1em 1em;
 }
 
-/* main {
+ main > h5 {
     color: #dd3232;
-} */
+}
 
 nav {
-    color: #777;  
+    color: #777;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 ul {
@@ -53,3 +56,15 @@ a {
     color: lightgrey;
 }
 
+.more-articles {
+    border-top: solid lightgrey;
+}
+
+.more-articles > section {
+    display: inline-block;
+    width: 50%;
+}
+
+.more-articles > :first-child {
+    float: left;
+}
