@@ -10,11 +10,15 @@ header > h1 {
     font-family: 'Abril Fatface';
 }
 
+h2 {
+    font-family: 'Abril Fatface';
+}
+
 header > div {
     font-size: small;
 }
 
-title {
+title , h4 , h5 {
     font-family: 'Roboto Slab';
 }
 
